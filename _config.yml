@@ -1,37 +1,21 @@
 # Site Settings
-baseurl: "/Grape-Academic-Theme"
+baseurl: "./about_me"
 
 # Blog Setting
 blog: True
 
 # Language of the website
-lang: en
+lang: fr
 
-# Search engine optimization settings
-title: Grape Academic Theme
-tagline: A jekyll theme for academic portfolios
-description: The demonstration page for the Grape Academic Theme, a jekyll theme for academic portfolios based on the Grape Theme.
-author: Christoph Jabs (chrjabs)
-twitter:
-  username: chrjabs
-  card: A jekyll theme for academic portfolios
-logo: /assets/img/smile.png
-social:
-  name: Christoph Jabs
-  links:
-    - https://twitter.com/chrjabs
-    - https://github.com/chrjabs
-locale: en_GB
 
 # Page Settings
 theme_settings:
-  title: Grape Academic Theme
+  title: Mon CV
 
-  experience_title: EXPERIENCE
-  interests_title: RESEARCH INTERESTS
-  skills_title: SKILLS
-  projects_title: PROJECTS
-  recentpubs_title: RECENT PUBLICATIONS
+  experience_title: Réussites
+  interests_title: Domaines d'intéret
+  skills_title: Compétences
+  projects_title: Projets
 
 # Pagination
 paginate: 5
@@ -41,22 +25,9 @@ paginate_path: "blog/page:num"
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: ['jekyll-paginate', 'jekyll/scholar', 'jekyll-seo-tag']
+plugins: ['jekyll-paginate', 'jekyll-seo-tag']
 bootstrap:
   assets: true
-
-# Bibliography settings
-scholar:
-  bibliography: publications.bib
-  bibliography_template: pubstemplate
-  style: apa
-  locale: en
-  last_name: Me
-  first_name: [Myself, M.]
-  sort_by: year,month
-  order: descending,ascending
-
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
 
 academicons:
   version: "1.9.1"

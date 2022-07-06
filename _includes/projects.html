@@ -9,7 +9,7 @@
         <div class="card">
           {% if project.image %}
           <div class="img-wrap">
-            <img src="{{ project.image.path | prepend: '/assets/project/' | relative_url }}" alt="{{ project.image.alt }}">
+            <img src="{{ project.image.path | prepend: '/assets/img/' | relative_url }}" alt="{{ project.image.alt }}">
           </div>
           {% endif %}
           <div class="text-wrap {% if project.image %}{% endif %}">
