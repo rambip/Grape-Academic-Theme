@@ -1,5 +1,5 @@
 # Site Settings
-baseurl: "./about_me"
+baseurl: "./portfolio"
 
 # Blog Setting
 blog: True
@@ -10,7 +10,7 @@ lang: fr
 
 # Page Settings
 theme_settings:
-  title: Mon CV
+  title: Mon portfolio
 
   experience_title: Réussites
   interests_title: Domaines d'intéret
